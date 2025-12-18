@@ -22,6 +22,9 @@ function Navbar() {
         <Link to="/dashboard" className={location.pathname === '/dashboard' ? 'active' : ''}>
           Dashboard
         </Link>
+        <Link to="/schedule" className={location.pathname === '/schedule' ? 'active' : ''}>
+          Schedule
+        </Link>
         <Link to="/monitoring" className={location.pathname === '/monitoring' ? 'active' : ''}>
           Monitoring
         </Link>
